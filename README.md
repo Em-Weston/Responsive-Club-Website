@@ -46,7 +46,8 @@ To Do:
 ## Acknowledgements 
 
 * This project was creted via codecadamy's Full Stack Engineer Path [Click Here](https://www.codecademy.com/learn)
-* 
+* [Photo by Tobit Nazar Nieto](https://images.pexels.com/photos/3026353/pexels-photo-3026353.jpeg?cs=srgb&dl=pexels-tobit-nazar-nieto-hernandez-3026353.jpg&fm=jpg)
+* [Photo by Tobit Nazar Nieto](https://images.pexels.com/photos/3039956/pexels-photo-3039956.jpeg?cs=srgb&dl=pexels-tobit-nazar-nieto-hernandez-3039956.jpg&fm=jpg)
 
 ## Contact 
 

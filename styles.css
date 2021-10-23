@@ -1,0 +1,92 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-template-areas: "h h h h h h h h"
+                         "pic pic pic pic . name name name"
+                         "aside aside main main main"
+                         "foot foot foot foot foot";
+    /* column-gap: 10px;
+    row-gap: 15px; */
+    grid-gap: 15px;
+    border: 1px solid red;                
+}
+.nav {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    /* width: 100%; */
+    border: 1px solid green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+.menu {
+    /* grid-area: "header header header header header"; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* width: 100%; */
+    /* border: 1px solid green; */
+}
+li {
+    list-style-type: none;
+    /* column-gap: 30px; */
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+li:hover {
+    text-decoration: underline;
+}
+ /*  Banner part of the site */
+/* .gallery {
+    display: grid;
+
+} */
+.first {
+    /* grid-area: pic; */
+    /* height: 400px;
+    width: 250px; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.second {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.third {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.fourth {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+}
