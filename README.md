@@ -30,9 +30,8 @@ Project is created with:
 * GitHub
 	
 ## Project Status
-
 Project is: *Complete* 
----  
+
 I choose to make my project for a imaginary local motorcycle club.    
 I'm really pleased with how this project came out. The grid layout worked really well.
 The white background, beautiful images, and big bold text is visually appealing.  
@@ -44,9 +43,9 @@ To really make the mobile layout smooth, I used media queries to re-arrange, re-
 As I work through this project, I will list any areas that can be improved.  
 I will also add TODO's for the future.   
 Room For Improvement: 
-    * When viewed on a mobile screen, the nav bar isn't displayed. It would be better to have the nav bar displayed, but either in a column layout at the top, and not fixed. Or use small logos. (eg, twitter logo)
-    * Add a club email sign up link to the page.
-    * Other extra sections could be 'photographs' or 'blog'. 
+ * When viewed on a mobile screen, the nav bar isn't displayed. It would be better to have the nav bar displayed, but either in a column layout at the top, and not fixed. Or use small logos. (eg, twitter logo)
+ * Add a club email sign up link to the page.
+ * Other extra sections could be 'photographs' or 'blog'. 
 
 
 ## Acknowledgements 
