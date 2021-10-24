@@ -16,6 +16,7 @@
     font-size: 2rem;
     justify-content: center;
     text-align: center;
+    text-decoration: underline;
 }
 .nav {
     grid-column-start: 1;
@@ -183,15 +184,16 @@ p {
     grid-row-end: 20;
     background-color: #FFFFFF;
     opacity: 0.9;
-    
+    text-decoration: none;
 }
 .lineTwo {
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 21;
-    grid-row-end: 21;
+    grid-row-start: 22;
+    grid-row-end: 22;
     background-color: #FFFFFF;
     opacity: 0.9;
+    text-decoration: none;
 }
 
 .joinUs {
@@ -250,4 +252,128 @@ footer {
     padding-right: 10%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    font-weight: bold;
 }
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    /* body {
+      background-color: blue;
+    } */
+    .first {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 6;
+    }
+    .second {
+        display: none;
+    }
+    .third {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 10;
+    }
+    .fourth {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 10;
+    }
+    .club-img3 {
+        display: none;
+    }
+    .club-img1 {
+        display: none;
+    }
+    .club-img2 {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 16;
+        grid-row-end: 18;
+    }
+    .quote {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 19;
+        grid-row-end: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .lineOne {
+        display: none;
+    }
+    .lineTwo {
+        display: none;
+    }
+    .last-img {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 20;
+        grid-row-end: 21;
+    }
+    .joinUs {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 21;
+        grid-row-end: 21;
+        font-family: 'Roboto', sans-serif;
+        /* font-weight: bold; */
+        font-size: 2.5rem;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    .mail {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 22;
+        grid-row-end: 23;
+        font-family: 'Roboto', sans-serif;
+        /* font-weight: bold; */
+        font-size: 1.5rem;
+        justify-content: center;
+        /* text-align: center; */
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    /* body {
+      background-color: olive;
+    } */
+    .nav {
+        display: none;
+    }
+    .third {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 10;
+    }
+    .first {
+        display: none;
+    }
+    .fourth {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        background-color: #ffffff;
+        /* opacity: 0.8; */
+    }
+    .club-img2 {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 16;
+        grid-row-end: 18;
+    }
+    .title {
+        text-decoration: underline;
+    }
+  }
