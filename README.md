@@ -46,8 +46,12 @@ To Do:
 ## Acknowledgements 
 
 * This project was creted via codecadamy's Full Stack Engineer Path [Click Here](https://www.codecademy.com/learn)
+* All Images found on [Pexels](https://www.pexels.com)
 * [Photo by Tobit Nazar Nieto](https://images.pexels.com/photos/3026353/pexels-photo-3026353.jpeg?cs=srgb&dl=pexels-tobit-nazar-nieto-hernandez-3026353.jpg&fm=jpg)
 * [Photo by Tobit Nazar Nieto](https://images.pexels.com/photos/3039956/pexels-photo-3039956.jpeg?cs=srgb&dl=pexels-tobit-nazar-nieto-hernandez-3039956.jpg&fm=jpg)
+* [Photo by Diego Rodriguez](https://images.pexels.com/photos/4682505/pexels-photo-4682505.jpeg?cs=srgb&dl=pexels-diego-rodr%C3%ADguez-4682505.jpg&fm=jpg)
+* [Photo By Oleg Magni](hhttps://images.pexels.com/photos/1796306/pexels-photo-1796306.jpeg?cs=srgb&dl=pexels-oleg-magni-1796306.jpg&fm=jpg)
+* [Photo by Michal Hudcovic](https://images.pexels.com/photos/2753993/pexels-photo-2753993.jpeg?cs=srgb&dl=pexels-michal-hudcovič-2753993.jpg&fm=jpg)
 
 ## Contact 
 
