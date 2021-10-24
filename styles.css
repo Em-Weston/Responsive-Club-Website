@@ -10,6 +10,13 @@
     row-gap: 15px; */
     grid-gap: 15px;               
 }
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
 .nav {
     grid-column-start: 1;
     grid-column-end: 8;
@@ -46,15 +53,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
- /*  Banner part of the site */
-/* .gallery {
-    display: grid;
 
-} */
+/* BANNER */
 .first {
-    /* grid-area: pic; */
-    /* height: 400px;
-    width: 250px; */
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -98,14 +99,10 @@ a:hover {
     grid-column-end: 6;
     grid-row-start: 11;
     grid-row-end: 11;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
 }
 .table {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 8;
     grid-row-start: 12;
     grid-row-end: 13;
 }
@@ -116,55 +113,12 @@ table, th, td {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
-/* 
-#members {
-    grid-column-start: 1;
-    grid-column-end: 8;
-    grid-row-start: 14;
-    grid-row-end: 16;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-}
-.memberOne img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-.memberTwo img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-.memberOne {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 14;
-    grid-row-end: 14;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-.memberTwo {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 14;
-    grid-row-end: 14;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-} */
+/* THE CLUB */
 #club {
     grid-column-start: 1;
-    grid-column-end: 8;
+    grid-column-end: 9;
     grid-row-start: 14;
     grid-row-end: 16;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    justify-content: center;
 }
 .club-img1 {
     grid-column-start: 6;
@@ -214,4 +168,86 @@ p {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+#contact {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 20;
+    grid-row-end: 20;
+}
+.lineOne {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 20;
+    grid-row-end: 20;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    
+}
+.lineTwo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 21;
+    grid-row-end: 21;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.joinUs {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 21;
+    grid-row-end: 21;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size: 2.5rem;
+    /* justify-content: center; */
+    text-align: center;
+}
+.once {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 22;
+    grid-row-end: 22;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.mail {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 22;
+    grid-row-end: 23;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+    justify-content: center;
+    /* text-align: center; */
+}
+.last-img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 20;
+    grid-row-end: 23;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+footer {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 24;
+    grid-row-end: 24;
+    text-align: right;
+}
+.copy {
+    padding-right: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
