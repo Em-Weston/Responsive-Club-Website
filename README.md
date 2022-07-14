@@ -1,7 +1,8 @@
 # Challenge Project: Responsive Club Website
 
 In this project, I will be building my own club group page that will dynamically respond as the screen size is adjusted!  
-The webpage will be for a local club. Either real or imaginary.   
+The webpage will be for a local club. Either real or imaginary.
+[View the completed project.](https://scrumpyflea.github.io/Responsive-Club-Website/)
 ​
 ## Table of contents
 * [General info](#general-info)
